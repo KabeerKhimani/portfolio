@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Projects | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+  <a href="home.html">AK.</a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Figma Projects Section -->
+    <section class="projects-section">
+        <h1 class="section-title">Figma <span>Projects</span></h1>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-box fade-up">
+                <img src="figma.PNG" alt="Figma Project 1">
+                <a href="https://www.figma.com/design/TPPCsrTgNS9dcbNMrK1Z71/FOOD-PANDA?node-id=0-1&t=kccKrkIP4dPwkmQG-1" target="_blank" class="demo-btn">Live Demo</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-box fade-up">
+                <img src="figma2.PNG" alt="Figma Project 2">
+                <a href="https://www.figma.com/design/To5kcNADOPX8WsRXirO7UB/Untitled?node-id=0-1&t=xljPSRqSXHRpjWVk-1" target="_blank" class="demo-btn">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <p>Please allow the project a few moments to fully load.  
+       If you experience any delay, simply refresh the page for the best experience.</p>
+</footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.body.classList.add("fade-in");
+        });
+    </script>
+
+</body>
+</html>
